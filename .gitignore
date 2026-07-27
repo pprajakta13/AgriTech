@@ -1,0 +1,22 @@
+# Composer
+/vendor/
+
+# Environment
+.env
+
+# CodeIgniter writable folder
+/writable/*
+
+# Keep writable folder structure
+!/writable/index.html
+!/writable/.htaccess
+
+# Uploads
+/public/uploads/
+
+# Node
+/node_modules/
+
+# OS Files
+.DS_Store
+Thumbs.db
